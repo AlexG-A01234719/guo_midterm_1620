@@ -1,0 +1,72 @@
+/* 
+font-family: 'Laila', serif;
+font-family: 'Spinnaker', sans-serif;
+
+Sans-serif for headings, lists and anywhere with relatively little text
+Serif font for paragraphs and large bodies of text
+
+Color palette:
+#28536B, #C09187, #7EA8BE, #F6F0ED
+*/
+
+
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F6F0ED;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+#navbar li {
+    color: #28536B;
+    padding: 15px;
+    display: inline;
+}
+
+#navbar h2 {
+    color: #28536B;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+#navbar li:hover {
+    background-color: #C09187;
+}
+
+#navbar a {
+    color: inherit;
+    text-decoration: none
+}
+
+body {
+    padding-top: 100px;
+    background-color: #7EA8BE;
+}
+
+header {
+    font-family: 'Spinnaker', sans-serif;
+    color: #28536B;
+    font-size: 50px;
+    padding-left: 25px;
+}
+
+article {
+    font-family: 'Spinnaker', sans-serif;
+    color: #F6F0ED;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+img {
+    border-style: solid;
+    border-color: #28536B;
+    border-radius: 7px;
+}
+
+article ul {
+    list-style: none;
+}
